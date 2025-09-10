@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <title> zadanie4-Katana</title>
+    <style>
+        p
+        { font-size: 110mm;}
+        body {margin: 0;padding: 0;}
+    </style>
+</head>
+<body>
+<ol>
+<li>
+<h1>Kiedy powstał JavaScript (podaj datę)</h1><br>
+1995-12-04</li>
+
+<h1><li>Dlaczego jest to język skryptowy</h1><br>
+Bo kod JS jest interpretowany w trakcie działania, a nie kompilowany wcześniej</li>
+
+<h1><li>Gdzie jest wykonywany JS (klient lub serwer)</h1><br>
+Najczęściej po stronie klienta (przeglądarka), ale także na serwerze (np. Node.js)</li>
+
+<h1><li>Dlaczego jest JS to bezpieczne narzędzie</h1><br>
+Ponieważ działa w tzw. piaskownicy przeglądarki, ma ograniczony dostęp do systemu użytkownika</li>
+
+<h1><li>Czy jest to język obiektowy , jeśli tak to dlaczego</h1><br>
+Tak, bo obsługuje obiekty, dziedziczenie i programowanie zorientowane obiektowo</li>
+
+<h1><li>Wymień zalety JS</h1><br>
+Zaleta1 Łatwa integracja z HTML i CSS
+Zaleta2 Działa we wszystkich popularnych przeglądarkach
+Zaleta3 Posiada wiele bibliotek i frameworków wspierających rozwój</li>
+
+<h1><li>Framework to</h1><br>
+Gotowy szkielet/program biblioteczny ułatwiający tworzenie aplikacji
+
+<h1><li>Do aplikacji mobilnych można użyć Framework</h1><br>
+Tak, np. React Native, Ionic, Flutter (dla JS – React Native)</li>
+
+<h1><li>Aplikacje responsywne to</h1><br>
+Aplikacje/strony WWW, które automatycznie dopasowują wygląd do rozmiaru ekranu</li>
+
+<h1><li><pre><code>input type="button" name="przycisk" value="Nowa Strona" onclick="WinOpen(' ')"</code></pre></h1><br>
+Tworzy przycisk o nazwie przycisk, który po kliknięciu wywoła funkcję WinOpen(' '), np. otwierającą nową stronę
+
+<h1><li>window.open("obraz.html","okienko","toolbar=no,directories=no,menubar=no,height=280,width=160,top=200,left=200")</h1><br>
+Otwiera nowe okno przeglądarki z plikiem obraz.html o określonych parametrach (rozmiar i pozycja)<br>
+
+toolbar=no → ukrywa pasek narzędzi<br>
+
+directories=no → ukrywa przyciski katalogów<br>
+
+menubar=no → ukrywa menu przeglądarki<br>
+
+height=280 → ustawia wysokość okna na 280 pikseli<br>
+
+width=160 → ustawia szerokość okna na 160 pikseli<br>
+
+top=200 → przesuwa okno 200 pikseli w dół od górnej krawędzi ekranu<br>
+
+left=200 → przesuwa okno 200 pikseli od lewej krawędzi ekranu<br></li>
+
+<h1><li>window.close()</h1><br>
+Zamyka aktualnie otwarte okno przeglądarki za pomocą skryptu<br><br>
+<u>Gdy chcesz wyświetlić instrukcję, która nie powinna się wykonywać a tylko wyświetlać</u> masz:<br>
+dwie możliwości:<br><br>
+<u>Pierwsza możliwość</u><br>
+Znak < możesz wyświetlić jako &lsaquo;<br>
+Znak > możesz wyświetlić jako &rsaquo;<br><br>
+<u>Druga możliwość</u><br>
+Zapis np. użycie encji ‹script›window.close()‹/script› aby nie uruchomić polecenia<br><br>
+<textarea rows="18" cols="80" readonly>
+<!DOCTYPE html>
+<html lang="pl">
+ <head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta http-equiv="Content-Script-Type" content="text/javascript">
+ <title>Moja strona WWW</title>
+ <script type="text/javascript">
+ function onclickHandler()
+ {
+ alert('Akapit został kliknięty!');
+ }
+ </script>
+ </head>
+ <body>
+ <p onclick="onclickHandler();">Kliknij ten akapit,
+ a pojawi się okno dialogowe.</p>
+ </body>
+</html>
+</textarea>
+</p>
+
+</body>
+</html>
