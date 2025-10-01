@@ -1,14 +1,26 @@
 <html>
   <body>
-    <div style="color:green;font-size:50px;">
+    <div style="color:green;font: size 39px;">
       <script language="JavaScript">
-        var m_kat = prompt("Podaj liczbę naturalną m:","");
-        var m = parseInt(m_kat);
+        var A = prompt("Podaj pierwszą liczbę A=","");
+        var B = prompt("Podaj drugą liczbę B=","");
+        var a = parseInt(A);
+        var b = parseInt(B);
 
-        var m1 = m + 1;
-        var m2 = m * (m + 1);
+        document.write("Wczytane liczby: A=" + a + " B=" + b + "<br><br>");
 
-        document.write("1/" + m + " = 1/" + m1 + " + 1/" + m2 + "<br>");
+        var czesc1 = Math.pow(a,3);
+        var czesc2 = 3 * Math.pow(a,2) * b;
+        var czesc3 = 3 * a * Math.pow(b,2);
+        var czesc4 = Math.pow(b,3);
+
+        var suma = czesc1 + czesc2 + czesc3 + czesc4;
+
+        document.write("(" + a + " + " + b + ")^3 = " 
+                       + a + "^3 + 3*" + a + "^2*" + b 
+                       + " + 3*" + a + "*" + b + "^2 + " + b + "^3 = "
+                       + czesc1 + " + " + czesc2 + " + " + czesc3 + " + " + czesc4 
+                       + " = " + suma);
         
         function okno_zamknij_kat() {
           window.close();
