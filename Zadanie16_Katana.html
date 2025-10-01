@@ -2,25 +2,27 @@
   <body>
     <div style="color:green;font: size 39px;">
       <script language="JavaScript">
-        var A = prompt("Podaj pierwszą liczbę A=","");
-        var B = prompt("Podaj drugą liczbę B=","");
-        var a = parseInt(A);
-        var b = parseInt(B);
+        // Szymon Katana 2P 30.09.2025
+        // Zadanie 16
+        var A_kat = prompt("Podaj pierwszą liczbę A=","");
+        var B_kat = prompt("Podaj drugą liczbę B=","");
+        var a_kat = parseInt(A_kat);
+        var b_kat = parseInt(B_kat);
 
-        document.write("Wczytane liczby: A=" + a + " B=" + b + "<br><br>");
+        document.write("Wczytane liczby: A=" + a_kat + " B=" + b_kat + "<br><br>");
 
-        var czesc1 = Math.pow(a,3);
-        var czesc2 = 3 * Math.pow(a,2) * b;
-        var czesc3 = 3 * a * Math.pow(b,2);
-        var czesc4 = Math.pow(b,3);
+        var czesc1_kat = Math.pow(a_kat,3);
+        var czesc2_kat = 3 * Math.pow(a_kat,2) * b_kat;
+        var czesc3_kat = 3 * a_kat * Math.pow(b_kat,2);
+        var czesc4_kat = Math.pow(b_kat,3);
 
-        var suma = czesc1 + czesc2 + czesc3 + czesc4;
+        var suma_kat = czesc1_kat + czesc2_kat + czesc3_kat + czesc4_kat;
 
-        document.write("(" + a + " + " + b + ")^3 = " 
-                       + a + "^3 + 3*" + a + "^2*" + b 
-                       + " + 3*" + a + "*" + b + "^2 + " + b + "^3 = "
-                       + czesc1 + " + " + czesc2 + " + " + czesc3 + " + " + czesc4 
-                       + " = " + suma);
+        document.write("(" + a_kat + " + " + b_kat + ")^3 = " 
+                       + a_kat + "^3 + 3*" + a_kat + "^2*" + b_kat 
+                       + " + 3*" + a_kat + "*" + b_kat + "^2 + " + b_kat + "^3 = "
+                       + czesc1_kat + " + " + czesc2_kat + " + " + czesc3_kat + " + " + czesc4_kat 
+                       + " = " + suma_kat);
         
         function okno_zamknij_kat() {
           window.close();
