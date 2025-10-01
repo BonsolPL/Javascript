@@ -1,17 +1,13 @@
-
 <html>
   <body>
     <div style="color:green;font-size:50px;">
       <script language="JavaScript">
         var m_kat = prompt("Podaj liczbę naturalną m:","");
         var m = parseInt(m_kat);
-
-        var m1 = m + 1;
-        var m2 = m * (m + 1);
-        var m3 = m2 * (m + 1);
-
-        document.write("1/" + m + " = 1/" + m1 + " + 1/" + m2 + " + 1/" + m3 + "<br>");
-        
+        var a = m + 2;
+        var b = (m + 1) * (m + 2);
+        var c = m * (m + 1);
+        document.write("1/" + m + " = 1/" + a + " + 1/" + b + " + 1/" + c + "<br>");
         function okno_zamknij_kat() {
           window.close();
         }
