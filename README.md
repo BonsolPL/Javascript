@@ -1,12 +1,14 @@
-W Zespole Szkół Elektronicznych (ZSE) technologia była tak archaiczna, że komputery zacinające się na każdym kliknięciu były codziennością, a Wi-Fi działało tylko przy księżycu w nowiu. Nikt już nie wierzył, że szkoła kiedykolwiek wyjdzie z ery dyskietek, aż do momentu, gdy pojawiła się Maryp – tajemnicza bohaterka z mocą przywracania nowoczesności tam, gdzie panuje chaos technologiczny.
+W ZSE panował totalny chaos technologiczny – komputery były archaiczne, Wi-Fi działało tylko przy pełni, a drukarki pluły papierem w losowych kierunkach. Na ratunek przybyła Maryp, bohaterka z tabletem, który mógł zaktualizować wszystko w jednej sekundzie i wyłączyć wszystkie wirusy jednym kliknięciem.
 
-Pierwszym wyzwaniem była sala informatyczna na pierwszym piętrze, gdzie Kryniewski, mistrz rzucania telefonem z wysokości, demonstrował swoje „umiejętności” na każdym sprzęcie. Maryp spojrzała na to z lekkim uśmiechem i powiedziała:
-– Jeśli nie chcecie skończyć z telefonami w kawałkach, lepiej posłuchajcie mnie.
+Pierwszą areną walki była pracownia witryn i aplikacji, gdzie Kryniewski, mistrz rzucania telefonem z pierwszego piętra, strzelał smartfonami niczym shurikenami w stary komputerowy sprzęt. Maryp z lekkim uśmiechem machnęła tabletem, a telefony zawisły w powietrzu w polu siłowym i… zaczęły same aktualizować systemy.
 
-Wtedy wkroczył Rawa, szkolny dyżurny od „discipliny”, który wolał karę 10 tysięcy zł grzywny od samodzielnego sprzątania. Maryp, z magicznym tabletem w ręku, zaktualizowała wszystkie komputery do najnowszej wersji, a Wi-Fi nagle zaczęło działać tak szybko, że nawet Jaruzelski (szkolny nauczyciel historii, który nigdy nie mógł ogarnąć projektora) mógł prowadzić lekcje bez frustracji.
+Do akcji wkroczył Rawa, nauczyciel informatyki, który dzięki mocy swojego pendrive’a mógł przywracać każdy komputer do życia w mgnieniu oka. Zaczęła się bitwa sieciowa – Wi-Fi nagle stało się superszybkie, a wszystkie programy działały w trybie turbo, co zaskoczyło nawet Jaruzelskiego, nauczyciela angielskiego, który zaczął prowadzić lekcję w stylu rock’n’roll – projekcja holograficzna wyświetlała mu słowa piosenek i tłumaczenia w czasie rzeczywistym.
 
-Nie obyło się bez konfliktu – Rusaj i Aniceta, znani ze szkolnych podchodów i psot, próbowali sabotować zmiany. Ale Maryp była sprytna: jedną ręką blokowała ich dostęp, a drugą udostępniała wszystkim cyfrowe tablice, dzięki którym ZSE zaczęło naprawdę błyszczeć nowoczesnością.
+Wtedy na arenę wkroczyli Rusaj z EDB i Aniceta z BHP, którzy rzucali szkolnymi podręcznikami jak granatami i rozstawiali pachołki w każdej sali, tworząc pułapki dla nowoczesnych technologii. Maryp jednym gestem zamieniła pachołki w drony monitorujące bezpieczeństwo, a podręczniki w interaktywne poradniki do nauki.
 
-Na koniec Kryniewski, zamiast rzucać telefonem, rzucił się w wir nauki, Rawa odetchnął, bo 10 tys. grzywny zamieniło się w szkolną nagrodę za innowacje, a Maryp stała się legendą ZSE – bohaterką, która wyzwoliła szkołę z epoki kamienia technologicznego.
+W tym czasie lekcja geografii w postaci 10 tys. kary grzywny przemieniła się w latającą mapę Polski, która ścigała każdego ucznia ignorującego obowiązki – ale dzięki Maryp mapa zaczęła rozdawać punkty za innowacje zamiast straszyć karami.
 
-Od tego dnia każdy w ZSE wiedział, że gdy technologia upadnie, Maryp zawsze wleci z tabletem i magicznym uśmiechem, by uratować dzień.
+Na koniec Kryniewski porzucił telefony i zaczął tworzyć własne aplikacje, Rawa pilotował sieć jak komputerowy generał, Rusaj i Aniceta zostali wciągnięci w edukacyjny wir BHP i EDB, a Maryp, niczym superbohaterka, zawisła nad ZSE z tabletem, uśmiechając się:
+– Witajcie w nowoczesności, kochani!
+
+Od tego dnia każda lekcja w ZSE była epicką bitwą technologii, a uczniowie wiedzieli, że jeśli coś się zawiesi, Maryp przybędzie z pomocą – i tym razem z dronami, hologramami i latającymi mapami.
