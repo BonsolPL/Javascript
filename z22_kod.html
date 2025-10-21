@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <textarea cols="90" rows="24">
+<html> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <link rel="stylesheet" href="styl.css"> 
+ </head> 
+<body> 
+ <script type="text/javascript"> 
+  function pole_kat() 
+   { 
+ var a_kat= parseFloat(document.getElementById('dlugosc a').value);
+ var b_kat= parseFloat(document.getElementById('dlugosc b').value); 
+ var c_kat= a_kat*b_kat;  
+        document.getElementById("nazwa").innerHTML ="Pole kwadratu= "+c_kat.toFixed(2)+" cm^2";  
+   } 
+  function obwud_kat() 
+   { 
+ var a_kat= parseFloat(document.getElementById('dlugosc a').value); 
+ var b_kat= parseFloat(document.getElementById('dlugosc b').value); 
+ var c_kat= 2*a_kat+2*b_kat; 
+        document.getElementById("nazwa").innerHTML ="Obwód kwadratu= "+c_kat.toFixed(2)+" cm";  
+   } 
+ </script> 
+  <h1>Wszystko o prostokącie</h1><br><br> 
+  Podaj długość boku a: <input type="text" id="dlugosc a" value=""> cm<br><br><br>
+  Podaj długość boku b: <input type="text" id="dlugosc b" value=""> cm<br><br><br> 
+  <input type="button" name="pole" value="Oblicz pole" Onclick="pole_kat()"><br><br> 
+  <input type="button" name="obwud" value="Oblicz obwod" Onclick="obwud_kat()"><br><br> 
+  <div  style="color:red;font-size:50px;"id="nazwa"></div> 
+</body> 
+</html>    
+        </textarea>
+    </body>
+</html>

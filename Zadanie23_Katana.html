@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Zadanie 23</title>
+</head>
+<body>
+<script language="JavaScript">
+var a_kat = 0;
+
+function zadanie23() {
+  var d_kat = parseFloat(document.getElementById('d').value);
+  var x_kat = parseFloat(document.getElementById('x').value);
+
+  var drabina_kat = Math.sqrt(d_kat * d_kat + x_kat * x_kat);
+  a_kat = Math.atan(d_kat / x_kat) * 180 / Math.PI;
+
+  document.getElementById('drabina').value = drabina_kat.toFixed(2);
+  document.getElementById('alfa').value = a_kat.toFixed(2);
+}
+</script>
+
+<h3>Obliczenie odległości od drabiny i kąta</h3>
+<p>Podaj D - wysokość [m] <input id="d" value=""></p>
+<p>Podaj X - odległość [m] <input id="x" value=""></p>
+<p><button id="Nazwisko_ucznia-Zadanie23" onclick="zadanie23()">Oblicz</button></p>
+<p>Drabina = <input id="drabina" readonly></p>
+<p>Alfa = <input id="alfa" readonly></p>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <textarea cols="90" rows="24">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Proste obliczenia</title>
+    <meta charset="utf-8">
+</head>
+<body>
+         <body style="background-color: #c0c0c0; color:blue">
+        
+    <script language="JavaScript">
+          var x1_kat = prompt("liczba1 =", "");
+          var x2_kat = prompt("liczba2 =", "");
+
+          var x1_rad = (x1_kat * Math.PI) / 180;
+          var y1_kat = 3 * x1_kat * 6 / 8;
+          var y2_kat = 2 * Math.cos(x1_rad) + 3 * Math.sin(x1_rad);
+          var y3_kat_p = Math.pow(x1_kat, 5) + Math.pow(x2_kat, 4);
+          var y3_kat = Math.pow(y3_kat_p, 1 / 3) * Math.abs(x1_kat - x2_kat);
+
+          document.write("&nbsp;x1&nbsp;=&nbsp;" + x1_kat + "&nbsp;&nbsp;&nbsp;x2&nbsp;=&nbsp;" + x2_kat + "<br>");
+          document.write("&nbsp;x1&nbsp;=&nbsp;" + x1_kat + "&nbsp;&nbsp;&nbsp;x1&nbsp;=&nbsp;" + x1_rad.toFixed(2) + "<br>");
+          document.write("&nbsp;y1&nbsp;=&nbsp;" + y1_kat.toFixed(2) + "<br>");
+          document.write("&nbsp;y2&nbsp;=&nbsp;" + y2_kat.toFixed(2) + "<br>");
+          document.write("&nbsp;y3&nbsp;=&nbsp;" + y3_kat.toFixed(2) + "<br>");
+     </script>
+</body>
+</html>
+
+        </textarea>
+    </body>
+</html>

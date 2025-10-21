@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Zadanie20</title>
+</head>
+<body>
+
+<h2>Wczytaj współrzędne punktów trójkąta</h2>
+
+<p>Punkt A: <input id="xa_kat" type="number" placeholder="xA"> <input id="ya_kat" type="number" placeholder="yA"></p>
+<p>Punkt B: <input id="xb_kat" type="number" placeholder="xB"> <input id="yb_kat" type="number" placeholder="yB"></p>
+<p>Punkt C: <input id="xc_kat" type="number" placeholder="xC"> <input id="yc_kat" type="number" placeholder="yC"></p>
+
+<button onclick="zadanie20()">Oblicz długości boków</button>
+
+<p id="wyniki"></p>
+
+<script>
+function AB_kat(xa_kat, ya_kat, xb_kat, yb_kat) {
+    return Math.sqrt(Math.pow(xb_kat - xa_kat, 2) + Math.pow(yb_kat - ya_kat, 2));
+}
+
+function BC_kat(xb_kat, yb_kat, xc_kat, yc_kat) {
+    return Math.sqrt(Math.pow(xc_kat - xb_kat, 2) + Math.pow(yc_kat - yb_kat, 2));
+}
+
+function AC_kat(xa_kat, ya_kat, xc_kat, yc_kat) {
+    return Math.sqrt(Math.pow(xc_kat - xa_kat, 2) + Math.pow(yc_kat - ya_kat, 2));
+}
+
+function zadanie20() {
+    var xa_kat = parseFloat(document.getElementById("xa_kat").value);
+    var ya_kat = parseFloat(document.getElementById("ya_kat").value);
+    var xb_kat = parseFloat(document.getElementById("xb_kat").value);
+    var yb_kat = parseFloat(document.getElementById("yb_kat").value);
+    var xc_kat = parseFloat(document.getElementById("xc_kat").value);
+    var yc_kat = parseFloat(document.getElementById("yc_kat").value);
+
+    var AB = AB_kat(xa_kat, ya_kat, xb_kat, yb_kat);
+    var BC = BC_kat(xb_kat, yb_kat, xc_kat, yc_kat);
+    var AC = AC_kat(xa_kat, ya_kat, xc_kat, yc_kat);
+
+    document.getElementById("wyniki").innerHTML = 
+        "Długość AB: " + AB.toFixed(2) + "<br>" +
+        "Długość BC: " + BC.toFixed(2) + "<br>" +
+        "Długość AC: " + AC.toFixed(2);
+}
+</script>
+
+</body>
+</html>
