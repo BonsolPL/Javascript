@@ -1,0 +1,30 @@
+<html>
+ <head>
+ <script type="text/javascript">
+ function monitor(Marka_k,Cale_k,Rozdzielczosc_k)
+{
+this.Marka=Marka_k;
+this.Cale=Cale_k;
+this.Rozdzielczosc=Rozdzielczosc_k;
+}
+ monitor.prototype.wypisz = function () 
+ {
+ alert(this.Marka + ' ' + this.Cale+ ' ' + this.Rozdzielczosc);
+ };
+var monitor1 = new monitor("Samsung", " 23,5”", "1920x1080"); 
+var monitor2 = new monitor('Asus', '27”', '3840 x 2160');
+var monitor3 = new monitor('Xiaomi', '30”', '3440 x 1440');
+monitor1.wypisz(); 
+monitor2.wypisz();
+monitor3.wypisz();
+ document.write("dostęp do właściwości"+"<br>");
+document.write("monitor pierwszy"+" "+monitor1.Marka+" "+monitor1.Cale+" "+monitor1.Rozdzielczosc + "<br>");
+document.write("monitor drugi"+" "+monitor2.Marka+" "+monitor2.Cale+" "+monitor2.Rozdzielczosc+ "<br>");
+document.write("monitor trzeci"+" "+monitor3.Marka+" "+monitor3.Cale+" "+monitor3.Rozdzielczosc+ "<br>");
+ </script>
+ </head>
+<body>
+<br>
+ programowanie obiektowe
+</body>
+</html>

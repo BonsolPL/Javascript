@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<title>Zadanie 29 - Katana</title>
+</head>
+<body>
+
+<h1>Zadanie 29 – Pytania teoretyczne z JavaScript</h1>
+
+<h2>1. Jakie są dwa sposoby definiowania właściwości obiektu w JavaScript?</h2>
+<p><b>Pierwszy sposób:</b><br>
+obiekt.nazwaWłaściwości = wartość;<br>
+Przykłady: <br>samochód.marka = "Opel Omega";<br>samochód.rok = 1996;<br>samochód.cena = 25000;
+</p>
+
+<p><b>Drugi sposób:</b><br>
+obiekt["nazwaWłaściwości"] = wartość;<br>
+Przykład: <br>samochód["cena"] = 25000;
+</p>
+
+<h2>2. Jak odwoływać się do właściwości i metod obiektu?</h2>
+<p>Do właściwości i metod obiektu odwołujemy się za pomocą notacji kropkowej, podając nazwę obiektu, kropkę i nazwę właściwości lub metody, na przykład:<br>
+console.log(samochód.kolor);
+</p>
+
+<h2>3. Czym charakteryzuje się konstruktor?</h2>
+<ul>
+<li>Jest automatycznie wywoływany podczas tworzenia nowego obiektu.</li>
+<li>Ma taką samą nazwę jak klasa.</li>
+<li>Nie zwraca żadnej wartości.</li>
+<li>Może przyjmować argumenty.</li>
+</ul>
+
+<h2>4. Przykład tworzenia obiektu</h2>
+<pre>
+var osoba = {
+  nazwisko: "Kowalski",
+  imię: "Jan",
+  zawód: "piekarz",
+  wyświetl: function() {
+    document.write(this.nazwisko + " " + this.imię);
+  }
+}
+</pre>
+
+<h2>5. Jakie jest znaczenie słowa kluczowego 'this' i jak oddzielamy elementy obiektu?</h2>
+<p>Słowo kluczowe <b>this</b> odnosi się do bieżącego obiektu, umożliwiając dostęp do jego pól i metod wewnątrz obiektu.<br>
+Pola i metody w obiekcie oddzielamy od siebie <b>przecinkami</b>.
+</p>
+
+<h2>6. Przykład konstruktora w JavaScript</h2>
+<pre>
+function Klient(nazwisko, imię, zawód) {
+  this.nazwisko = nazwisko;
+  this.imię = imię;
+  this.zawód = zawód;
+  this.wypisz = function() {
+    alert(this.nazwisko + " " + this.imię);
+  }
+}
+</pre>
+
+<h2>7. Do czego służy słowo kluczowe 'new'?</h2>
+<p>Słowo kluczowe <b>new</b> wykorzystuje się do tworzenia nowej instancji obiektu na podstawie konstruktora.<br>
+Przykład:
+<pre>
+var osoba1 = new Klient("Kowalski", "Jan", "kierowca");
+var osoba2 = new Klient("Nowak", "Anna", "sekretarka");
+</pre>
+</p>
+
+<h2>8. Jakie jest znaczenie słowa kluczowego 'prototype'?</h2>
+<p>Słowo kluczowe <b>prototype</b> umożliwia rozszerzanie konstruktorów o nowe metody i właściwości.<br>
+<b>Wszystkie obiekty utworzone za pomocą tego konstruktora będą dziedziczyć dodane właściwości i metody.</b></p>
+
+<pre>
+function Klient() {
+  this.nazwisko = "Bielski";
+  this.imię = "Paweł";
+}
+Klient.prototype.piszDane = function() {
+  document.write(this.nazwisko + " " + this.imię);
+}
+Klient.prototype.zawód = "kierowca";
+var osoba1 = new Klient();
+osoba1.piszDane();
+</pre>
+
+</body>
+</html>
