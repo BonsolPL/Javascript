@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <textarea cols="100" rows="36">
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie44_Katana</title>
+</head>
+<body>
+<input type="button" value="Pokaż" onclick="fun_kat()"/>
+
+<script>
+function fun_kat() {
+    var nazwisko_kat = "Katana";
+    var imie_kat = "Szymon";
+    
+    
+    var liczba_liter_nazwiska = nazwisko_kat.length; 
+    var ile_razy_wyswietlic_kat = (liczba_liter_nazwiska % 4) + 10;
+    var wielkosc_liter_kat = (liczba_liter_nazwiska % 3) + 40 + "px";
+    
+    
+    document.write("Ilość wykonania pętli = " + ile_razy_wyswietlic_kat + "<br>");
+    document.write("wielkość liter = " + wielkosc_liter_kat + "<br><br>");
+    
+    
+    for(var i_kat = 1; i_kat <= ile_razy_wyswietlic_kat; i_kat++) {
+        if(i_kat % 2 == 1) { 
+            document.write('<span style="font-size:' + wielkosc_liter_kat + '">' + nazwisko_kat + '</span><br>');
+        } else { 
+            document.write('<span style="font-size:' + wielkosc_liter_kat + '">' + imie_kat + '</span><br>');
+        }
+    }
+}
+</script>
+
+</body>
+</html>
+        </textarea>
+    </body>
+</html>
