@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Zadanie39_Katana</title>
+    </head>
+        <body>
+
+            <font color="green"><b>MENU:</b></font><br>
+            <font color="red">1-CZERWONY</font><br>
+            <font color="blue">2-NIEBIESKI</font><br>
+
+            <input type="button" value="Sprawdź" onclick="fun_kat()"/>
+
+            <script>
+                function fun_kat() {
+                   var x_kat = prompt("Podaj numer koloru (1 lub 2) lub jego nazwę:", "");
+    
+                   if(x_kat == "1" || x_kat.toLowerCase() == "czerwony") {
+                   document.write('<h1 style="color:red;">wczytałeś kolor CZERWONY</h1>');
+                   }
+                   else if(x_kat == "2" || x_kat.toLowerCase() == "niebieski") {
+                   document.write('<h6 style="color:blue;">wczytałeś kolor NIEBIESKI</h6>');
+                   }
+                   else {
+                   document.write('<p>Nieprawidłowy wybór!</p>');
+                    }
+                }
+            </script>
+
+        </body>
+</html>
