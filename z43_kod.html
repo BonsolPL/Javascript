@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <textarea cols="100" rows="36">
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Zadanie43_Katana</title>
+    </head>
+        <body>
+          <input type="button" value="Oblicz" onclick="fun_kat()"/>
+
+            <script>
+            function fun_kat() {
+            var koniec_petli_kat = prompt("Podaj liczbę na której pętla ma się zatrzymać:", "");
+            var i_kat = parseInt(koniec_petli_kat);
+    
+            document.write("<p>Liczby parzyste od 2 do " + i_kat + ":<p>");
+            for(var j_kat = 2; j_kat <= i_kat; j_kat++) {
+            if(j_kat % 2 == 0) {
+            document.write(j_kat + " ");
+            }
+            }
+            }
+            </script>
+
+        </body>
+</html>
+        </textarea>
+    </body>
+</html>
