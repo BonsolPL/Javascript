@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie57</title>
+</head>
+<body>
+    <script>
+        for (var i_kat = 10; i_kat <= 25; i_kat++) {
+            var p2_kat = Math.sqrt(i_kat);
+            var p4_kat = Math.sqrt(p2_kat);
+            
+            document.write("i=" + i_kat + " | pierw_2(" + i_kat + ")=" + p2_kat.toFixed(2) + " | pierw_4(" + i_kat + ")=" + p4_kat.toFixed(2) + "<br>");
+            
+            if ((i_kat - 9) % 3 === 0 && i_kat !== 25) {
+                document.write("Zatrzymanie ekranu<br><br>");
+            }
+        }
+    </script>
+</body>
+</html>
