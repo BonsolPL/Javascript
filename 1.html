@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Poziom 1</title>
+</head>
+<body>
+<script>
+let ksiazka = {
+  tytul: "Hobbit",
+  autor: "Tolkien",
+  rokWydania: 1937,
+  opis: function(){
+    return "Tytul: "+this.tytul+", Autor: "+this.autor;
+  }
+};
+console.log(ksiazka);
+console.log(ksiazka.opis());
+ksiazka.rokWydania = 1951;
+console.log("Nowy rok wydania:", ksiazka.rokWydania);
+console.log("Czy ma wydawnictwo:", ksiazka.hasOwnProperty("wydawnictwo"));
+console.log("Ilosc wlasciwosci:", Object.keys(ksiazka).length);
+let produkty = [
+  {nazwa:"Zeszyt", cena: 5},
+  {nazwa:"Dlugoopis", cena: 3},
+  {nazwa:"Plecak", cena: 120}
+];
+for(let i=0;i<produkty.length;i++){
+  console.log(produkty[i].nazwa + ", cena = "+ produkty[i].cena +" zl");
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Poziom 2</title>
+</head>
+<body>
+<script>
+function Uczen(imie,nazwisko,klasa){
+  this.imie = imie;
+  this.nazwisko = nazwisko;
+  this.klasa = klasa;
+  this.przedstawSie = function(){
+    return "Nazywam sie "+ this.imie +" "+ this.nazwisko +" i chodze do klasy " + this.klasa;
+  };
+  this.inicjaly = function(){
+    return this.imie[0] + this.nazwisko[0];
+  };
+}
+let u1 = new Uczen("Kuba","Mazur","1A");
+let u2 = new Uczen("Ola","Wojcik","2B");
+let u3 = new Uczen("Bartek","Lewandowski","3C");
+console.log(u1.przedstawSie());
+console.log("Inicjaly:", u1.inicjaly());
+console.log(u2.przedstawSie());
+console.log("Inicjaly:", u2.inicjaly());
+console.log(u3.przedstawSie());
+console.log("Inicjaly:", u3.inicjaly());
+class Uczen2{
+  constructor(imie,nazwisko,klasa){
+    this.imie = imie;
+    this.nazwisko = nazwisko;
+    this.klasa = klasa;
+  }
+  przedstawSie(){
+    return "Nazywam sie " + this.imie +" "+ this.nazwisko + " i chodze do klasy "+ this.klasa;
+  }
+  inicjaly(){
+    return this.imie[0] + this.nazwisko[0];
+  }
+}let u4 = new Uczen2("Natalia","Kowalczyk","1D");
+console.log(u4.przedstawSie());
+console.log("Inicjaly:", u4.inicjaly());
+</script>
+</body>
+</html>

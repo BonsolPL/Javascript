@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Poziom 4</title>
+</head>
+<body>
+<script>
+class Osoba{
+  constructor(imie,wiek){
+    this.imie = imie;
+    this._wiek = wiek;
+  }
+  przywitaj(){
+    return "Czesc, jestem " + this.imie;
+  }
+  get wiek(){
+    return this._wiek;
+  }
+  set wiek(w){
+    if(w<0){
+      console.log("Blad wieku");
+    }else{
+      this._wiek = w;
+    }
+  }
+}
+class Nauczyciel extends Osoba{
+  #pensja;
+  constructor(imie,wiek,przedmiot,pensja){
+    super(imie,wiek);
+    this.przedmiot = przedmiot;
+    this.#pensja = pensja;
+  }
+  ucz(){
+    return "Ucze przedmiotu " + this.przedmiot;
+  }
+  przywitaj(){
+    return "Dzien dobry, jestem nauczycielem " + this.imie;
+  }
+  getPensja(){
+    return this.#pensja;
+  }
+}
+let n = new Nauczyciel("Marcin",35,"Informatyka",6000);
+console.log(n.przywitaj());
+console.log(n.ucz());
+console.log("Pensja:", n.getPensja());
+</script>
+</body>
+</html>
